@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="font-roboto bg-gray-100 text-gray-800">
+    <header class="bg-white divide-y  border-b shadow-xs  ml-18 h-28 text-gray-700 fixed inset-x-0">
+        <div class="flex items-center justify-between h-14 px-5 py-1">
+            <div class="flex items-center -ml-3">
+                <img src="images/yt-logo.png" class="h-12 w-20 my-auto">
+            </div>
+            <div class="flex flex-grow justify-center items-center">
+                <input type="text" placeholder="Search" class="py-1 px-2 border border-gray-400 h-8 w-3/5 focus:outline-none focus:border-blue-600 "/>
+                <button class="bg-gray-200 h-8 px-4 border border-gray-400 border-l-0 hover:bg-gray-300 flex items-center justify-center">
+                    <i class="material-icons text-gray-600">search</i>
+                </button>
+            </div>
+            <div class="space-x-4 flex">
+                <button class="flex items-center justify-center h-10">
+                    <i class="material-icons">video_call</i>
+                </button>
+                <button class="flex items-center justify-center h-10">
+                    <i class="material-icons">apps</i>
+                </button>
+                <button class="flex items-center justify-center h-10">
+                    <i class="material-icons">notifications</i>
+                </button>
+                <button class="flex items-center justify-center h-10">
+                    <div class="h-8 w-8 bg-red-200 rounded-full"></div>
+                </button>
+            </div>
+        </div>
+        <div class="px-5 py-3 text-sm space-x-2 select-none">
+            <span class="inline-block bg-gray-700 text-gray-100 px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 hover:bg-gray-600 shadow-inner">
+                All Recommendations
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Javascript
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Python
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Wrestling
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                CSS
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Web development
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Unity
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                C++
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Technology
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                News
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Javascript
+            </span>
+            <span
+                class="inline-block bg-gray-100 hover:bg-gray-200  px-2 py-1 leading-relaxed rounded-full border border-black border-opacity-25 shadow-inner">
+                Javascript
+            </span>
+            
+        </div>
+    </header>
+    <aside class="bg-white fixed inset-y-0 left-0 h-screen pt-3 w-18 flex flex-col items-center text-gray-700">
+        <div class="h-16">
+            <button class="h-10 flex items-center">
+                <i class="material-icons">menu</i>
+            </button>
+        </div>
+        <div class="w-full -mt-2">
+            <button class="w-full space-y-1 flex flex-col py-4 items-center justify-center hover:bg-gray-200 text-red-600">
+                <i class="material-icons small">home</i>
+                <span class="text-xs">Home</span>
+            </button>
+            <button class="w-full space-y-1 flex flex-col py-4 items-center justify-center hover:bg-gray-200">
+                <i class="material-icons small">local_fire_department</i>
+                <span class="text-xs">Trending</span>
+            </button>
+            <button class="w-full space-y-1 flex flex-col py-4 items-center justify-center hover:bg-gray-200">
+                <i class="material-icons small">subscriptions</i>
+                <span class="text-xs">Subscription</span>
+            </button>
+            <button class="w-full space-y-1 flex flex-col py-4 items-center justify-center hover:bg-gray-200">
+                <i class="material-icons small">video_library</i>
+                <span class="text-xs">Library</span>
+            </button>
+        </div>
+    </aside>
+    <main class="pt-36 ml-18 text-black px-6">
+        <h3 class="text-xl font-bold">Recommended</h3>
+        <div class="mt-4 grid grid-cols-4 row-gap-10 col-gap-4">
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80" class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />                        
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                    class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-68">
+                <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1978&q=80"
+                    class="w-68 h-40 object-cover" />
+                <div class="pt-3 flex">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80"
+                        class="h-8 w-8 bg-blue-300 rounded-full flex-shrink-0 object-cover" />
+                    <div class="ml-3 text-sm">
+                        <div class="font-semibold">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing.
+                        </div>
+                        <div class="mt-1 text-gray-600">
+                            Channel name
+                        </div>
+                        <div class=" text-gray-600 flex items-center">
+                            1.6k views &middot; 10 minutes ago
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </main>
+</body>
+</html>
